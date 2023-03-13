@@ -1,0 +1,25 @@
+{
+    "name": "zulhamfendhy/adminlte",
+    "description": "Admin LTE by zulhamfendhy",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zulhamfendhy\\Adminlte\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zulhameffendy14",
+            "email": "zulhameffendy14@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zulhamfendhy\\Adminlte\\Providers\\AdminLteServiceProvider"
+            ]
+        }
+    }
+}
