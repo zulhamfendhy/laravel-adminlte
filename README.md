@@ -1,6 +1,6 @@
 # Admin Lte
 
-[![PHP Composer](https://github.com/zulhamfendhy/adminlte/actions/workflows/php.yml/badge.svg)](https://github.com/zulhamfendhy/adminlte/actions/workflows/php.yml)
+[![PHP Composer](https://github.com/zulhamfendhy/laravel-adminlte/actions/workflows/php.yml/badge.svg)](https://github.com/zulhamfendhy/laravel-adminlte/actions/workflows/php.yml)
 [![Downloads](https://img.shields.io/packagist/dt/zulhamfendhy/adminlte)](https://packagist.org/packages/zulhamfendhy/adminlte)
 [![Latest Stable Version](https://img.shields.io/packagist/v/zulhamfendhy/adminlte)](https://packagist.org/packages/zulhamfendhy/adminlte)
 [![License](https://img.shields.io/packagist/l/zulhamfendhy/adminlte)](https://packagist.org/packages/zulhamfendhy/adminlte)
