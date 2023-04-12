@@ -1,8 +1,8 @@
-<script src="{{ asset('/vendor/jquery/jquery.min.js') }}"></script>
-<script src="{{ asset('/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('/vendor/sweetalert2/sweetalert2.min.js') }}"></script>
-<script src="{{ asset('/vendor/select2/js/select2.full.min.js') }}"></script>
-<script src="{{ asset('/dist/js/adminlte.js') }}"></script>
+<script src="{{ asset('/adminlte/vendor/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('/adminlte/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('/adminlte/vendor/sweetalert2/sweetalert2.min.js') }}"></script>
+<script src="{{ asset('/adminlte/vendor/select2/js/select2.full.min.js') }}"></script>
+<script src="{{ asset('/adminlte/dist/js/adminlte.js') }}"></script>
 
 <script>
     $(function() {
