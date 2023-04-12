@@ -13,20 +13,24 @@
 composer require zulhamfendhy/adminlte
 ```
 
+```cli
+php artisan vendor:publish --tag=public
+```
+
 ## Usage
 
+Create a base template view. Example: base.blade.php
+
 ```php
-use Diolan12\Dijkstra\Dijkstra;
+@extends('adminlte::base')
 
-$dijkstra = new Dijkstra();
+@push('stylesheets')
 
-// Add vertices and edges
-$dijkstra->addVertex('A', ['B' => 3, 'C' => 2]);
-$dijkstra->addVertex('B', ['A' => 3, 'C' => 1, 'D' => 5]);
-$dijkstra->addVertex('C', ['A' => 2, 'B' => 1, 'D' => 6]);
-$dijkstra->addVertex('D', ['B' => 5, 'C' => 6]);
+@endpush
 
-$paths = $dijkstra->findShortestPath('A', 'D'); // [A, C, D]
+@push('javascripts')
+
+@endpush
 ```
 
 ## Dev Test
