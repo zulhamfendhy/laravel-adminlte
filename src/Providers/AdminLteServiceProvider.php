@@ -26,7 +26,7 @@ class AdminLteServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'adminlte');
 
         $this->publishes([
-            __DIR__.'..public' => public_path('vendor/Zulhamfendhy'),
+            __DIR__.'../public' => public_path('vendor/Zulhamfendhy'),
         ], 'public');
     }
 }
