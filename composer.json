@@ -8,18 +8,26 @@
             "Zulhamfendhy\\Adminlte\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "zulhameffendy14",
             "email": "zulhameffendy14@gmail.com"
         }
     ],
-    "require": {},
     "extra": {
         "laravel": {
             "providers": [
                 "Zulhamfendhy\\Adminlte\\Providers\\AdminLteServiceProvider"
             ]
         }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
     }
 }
