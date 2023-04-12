@@ -27,6 +27,6 @@ class AdminLteServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/../public' => public_path('adminlte'),
-        ], 'adminlte.assets');
+        ], 'public');
     }
 }
