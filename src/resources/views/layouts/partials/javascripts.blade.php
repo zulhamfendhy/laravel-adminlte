@@ -1,7 +1,7 @@
-<script src="{{ asset('/adminlte/vendor/jquery/jquery.min.js') }}"></script>
-<script src="{{ asset('/adminlte/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('/adminlte/vendor/sweetalert2/sweetalert2.min.js') }}"></script>
-<script src="{{ asset('/adminlte/vendor/select2/js/select2.full.min.js') }}"></script>
+<script src="{{ asset('/adminlte/plugin/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('/adminlte/plugin/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('/adminlte/plugin/sweetalert2/sweetalert2.min.js') }}"></script>
+<script src="{{ asset('/adminlte/plugin/select2/js/select2.full.min.js') }}"></script>
 <script src="{{ asset('/adminlte/dist/js/adminlte.js') }}"></script>
 
 <script>
