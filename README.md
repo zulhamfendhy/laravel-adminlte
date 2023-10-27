@@ -14,7 +14,7 @@ composer require zulhamfendhy/adminlte
 ```
 
 ```cli
-php artisan vendor:publish --tag=public
+php artisan vendor:publish --tag=zulhamfendhy-adminlte
 ```
 
 ## Usage
